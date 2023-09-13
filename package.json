@@ -1,0 +1,20 @@
+{
+  "name": "nlw-ia-back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.1",
+    "prisma": "^5.3.0"
+  }
+}
